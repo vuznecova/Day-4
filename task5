@@ -1,0 +1,18 @@
+//Write a Java program to remove all the elements from a priority queue.
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  PriorityQueue<String> prioQ = new PriorityQueue<String>() ;
+  prioQ.add("Red");
+  prioQ.add("Orange");
+  prioQ.add("Yellow");
+  prioQ.add("Green");
+  prioQ.add("Blue");
+  prioQ.add("Purple");
+  
+  System.out.println("Your Priority Queue: " + prioQ);
+  prioQ.clear();
+  System.out.println("Cleared Priority Queue: " + prioQ);
+  }
+ }
