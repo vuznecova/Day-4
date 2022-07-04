@@ -1,0 +1,17 @@
+//Write a Java program to get the number of elements in a hash set.
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  HashSet<String> hashS = new HashSet<String>() ;
+  hashS.add("Red");
+  hashS.add("Orange");
+  hashS.add("Yellow");
+  hashS.add("Green");
+  hashS.add("Blue");
+  hashS.add("Purple");
+  
+  System.out.println("Your Hash Set: " + hashS);
+  System.out.println("The number of elements: " + hashS.size());
+  }
+ }
