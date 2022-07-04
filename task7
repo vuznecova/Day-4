@@ -1,0 +1,22 @@
+//Write a Java program to sort keys in Tree Map by using comparator
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  TreeMap<String,String> treeM = new TreeMap<String,String>() ;
+  treeM.put("C1", "Red");
+  treeM.put("C2", "Orange");
+  treeM.put("C3", "Yellow");
+  treeM.put("C4", "Green");
+  treeM.put("C5", "Blue");
+  treeM.put("C6", "Purple");
+  
+  System.out.println("Your Tree Map: " + treeM);
+    }
+}
+    class sortK implements Comparator<String>{
+      
+    public int compare(String str1, String str2) {
+        return str1.compareTo(str2);
+ }
+}
