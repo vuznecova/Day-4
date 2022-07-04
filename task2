@@ -1,0 +1,18 @@
+//Write a Java program to iterate through all elements in a linked list.
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  List<String> arrL = new ArrayList<String>() ;
+  arrL.add("Red");
+  arrL.add("Orange");
+  arrL.add("Yellow");
+  arrL.add("Green");
+  arrL.add("Blue");
+  arrL.add("Purple");
+  
+  for ( String element : arrL ) {
+    System.out.print(element + " ");
+  }
+ }
+}
