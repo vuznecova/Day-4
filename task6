@@ -1,0 +1,19 @@
+//Write a Java program to get a shallow copy of a HashMap instance.
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+  HashMap<Integer,String> hashM = new HashMap<Integer,String>() ;
+  hashM.put(1, "Red");
+  hashM.put(2, "Orange");
+  hashM.put(3, "Yellow");
+  hashM.put(4, "Green");
+  hashM.put(5, "Blue");
+  hashM.put(6, "Purple");
+  
+  System.out.println("Your Hash Map: " + hashM);
+  HashMap<Integer,String> newHashM= new HashMap<Integer,String>();
+  newHashM = (HashMap)hashM.clone();
+  System.out.println("The cloned Hash Map: " + newHashM);
+  }
+ }
