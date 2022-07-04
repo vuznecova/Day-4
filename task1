@@ -1,0 +1,12 @@
+public class Main {
+  public static void main(String[] args) {
+  List<String> arrL = new ArrayList<String>() ;
+  arrL.add("Red");
+  arrL.add("Orange");
+  arrL.add("Yellow");
+  arrL.add("Green");
+  arrL.add("Blue");
+  arrL.add("Purple");
+  System.out.println(arrL);
+ }
+}
